@@ -4,7 +4,7 @@ from openai import OpenAI
 # Initialize OpenRouter client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=("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"),  # Set your key in environment variables
+    api_key=(""),  # Set your key in environment variables
     
 )
 from typing import Dict, List, Any
